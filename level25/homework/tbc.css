@@ -72,10 +72,39 @@ section{
     display: flex;
     padding: 10px;
 }
+.home-text img{
+    height: 300px;
+}
 .img{
     display: flex;
     padding: 10px;
+   
     
 }
-
+.img img{
+    height: 300px;
+}
+.box{
+    
+    display: inline-block;
+    border-radius: 5px;
+    background: grey;
+}
+.box img{
+    width: 200px;
+}
+.box p{
+    font-size: 20px;
+}
+.card-container{
+   
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+        padding-bottom: 20px;
+        }
+        
+       
 
