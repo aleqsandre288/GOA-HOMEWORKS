@@ -1,0 +1,40 @@
+/* ზოგადი სტილები */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+/* პარაგრაფები */
+.paragraph {
+    font-size: 16px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid rgb(100, 150, 255); /* ლურჯი */
+    color: rgb(255, 255, 255); /* თეთრი */
+    background-color: rgb(100, 150, 255); /* ლურჯი */
+}
+
+
+
+/* ღილაკები */
+.button {
+    background-color: rgb(255, 200, 100); /* ღია ყვითელი */
+    border: 2px solid rgb(255, 150, 50); /* ყვითელი */
+    color: rgb(0, 0, 0); /* შავი */
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(255, 150, 50); /* ყვითელი */
+    border-color: rgb(255, 200, 100); /* ღია ყვითელი */
+}
+

@@ -1,0 +1,44 @@
+img{
+    width:50%;
+    
+}
+
+#main{
+    width: 200px;
+    height:200px;
+    background: red;
+}
+
+#child{
+    background: green;
+    width: 50%;
+    height: 50%;
+}
+
+#container{
+    background: purple;
+    width: 300px;
+    height: 300px;
+    
+}
+#class1{
+    
+    background: blue;
+    width: 50%;
+    height: 50%;
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+#class2{
+    background: green;
+    width: 50%;
+    height: 50%;
+    
+}
+
+#class3{
+    background: red;
+    width: 50%;
+    height: 50%;
+    
+}
