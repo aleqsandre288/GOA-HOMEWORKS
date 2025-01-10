@@ -1,0 +1,52 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: blue;
+    height: 100px;
+    align-items: center;
+}
+
+ul button{
+    margin-right: 20px;
+    padding: 10px;
+    background: blue;
+    border-radius: 50px;
+}
+ul a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "Playwrite AU SA", serif;
+    font-weight: 900;
+}
+ul a:hover{
+    color: blue;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 30px;
+    
+}
+.conteiner p{
+    color: grey;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.conteiner img:hover{
+    height:300px;
+}
