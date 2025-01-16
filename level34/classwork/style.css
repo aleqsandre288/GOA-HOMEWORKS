@@ -1,0 +1,15 @@
+table , tr,td , th {
+    border:solid;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: lightblue;
+}
+td{
+    background-color: antiquewhite;
+}
+
+body{
+    background-color: violet;
+}
