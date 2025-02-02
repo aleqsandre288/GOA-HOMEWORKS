@@ -1,0 +1,26 @@
+ul{
+    list-style: url(money-bag.png)  inside decimal-leading-zero;
+    font-size: 25px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+    border-radius: 30px;
+}
+input{
+    width: 300px;
+    font-size: 30px;
+}
+label{
+    font-size: 30px;
+}
+input[type='submit']:hover{
+      background-color: blue;
+}
+input[type='submit']{
+    border-radius: 10px;
+    border: none;
+}
