@@ -1,0 +1,12 @@
+.conteiner{
+    height: 100px;
+    width: 500px;
+    background: orange;
+    display: flex;
+}
+.item1{
+    height: 30px;
+    width: 50px;
+    background: blue;
+    border: 1px solid black;
+}
