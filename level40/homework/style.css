@@ -1,0 +1,20 @@
+body{
+    background: brown;
+}
+
+.main{
+    display: flex;
+    background: whitesmoke;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.card{
+    background: lightgrey;
+    box-shadow: 2px 10px 10px 3px black;
+
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}

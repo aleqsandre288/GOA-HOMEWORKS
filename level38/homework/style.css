@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.small{
+    color: red;
+    width: 30px;
+    height: 30px;
+}
+.small1{
+    color: blue;
+    width: 30px;
+    height: 30px;
+}
+.small2{
+    color: blueviolet;
+    width: 30px;
+    height: 30px;
+}
+.small3{
+    color: coral;
+    width: 30px;
+    height: 30px;
+}

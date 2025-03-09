@@ -1,0 +1,29 @@
+.parent{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background: grey;
+}
+
+.child{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background: red;
+    top: 150px;
+    left: 150px;
+}
+
+.parent img{
+    height: 100px;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+}
+
+
+img{
+    height: 3000px;
+    position: absolute;
+    left: 1400px;
+}
