@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.parent{
+    width: 200px;
+    height: 200px;
+    background: green;
+    position: relative;
+    margin-top: 50px;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top:25%;
+    left: 50%;
+    translate: -50%;
+}
+
+h1{
+    text-align: center;
+    position: fixed;
+}
+
+.square{
+    width: 200px;
+    height: 200px;
+    background: purple;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background: blue;
+    position: absolute;
+    top: 600px;
+}
