@@ -1,0 +1,61 @@
+.main{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: 1s;
+}
+*{
+    background: #d5e1ef;
+}
+.main:active{
+    transform: translate(20px, 10px);
+}
+
+.scale{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+.scale:hover{
+    transform: scale(1.1);
+}
+
+.rotate{
+    width: 200px;
+    height: 200px;
+    background: purple;
+    transition: 1s;
+    margin-top: 10px;
+}
+
+.rotate:active{
+    transform: rotate(50deg);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    
+}
+
+.description p{
+    background: white;
+}

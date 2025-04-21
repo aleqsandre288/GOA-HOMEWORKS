@@ -1,0 +1,38 @@
+*{
+    background: #d5e1ef;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    border-radius: 50px;
+    width: 300px;
+    margin-left: 200px;
+
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.description p{
+    background: white;
+    font-weight: bolder;
+}
+
+.description span{
+    background: white;
+}

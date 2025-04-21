@@ -1,0 +1,61 @@
+.left{
+    height: 150px;
+    width: 200px;
+    background: red;
+
+}
+
+.left:active{
+    transform: translateX(-50px);
+}
+
+.bigger{
+    height: 150px;
+    width: 200px;
+    background: green;
+}
+
+.bigger:active{
+    transform: scale(1.5);
+}
+
+
+.diogonal{
+    width: 200px;
+    height: 150px;
+    background: blue;
+}
+
+.diogonal:active{
+    transform: rotate(180deg);
+    transform-origin: bottom right;
+    
+}
+
+.rotate{
+    width: 200px;
+    height: 150px;
+    background: purple;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotate:active{
+    transform: rotate(-180deg);
+    
+}
+
+.transformer{
+    width: 200px;
+    height: 150px;
+    background: coral;
+    
+}
+
+.transformer:active{
+    transform: translateX(50px);
+    transform: rotate(25deg);
+    transform: scale(4);
+}

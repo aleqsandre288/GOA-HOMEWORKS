@@ -1,0 +1,107 @@
+.color {
+    width: 200px;
+    height: 200px;
+    background: red;
+    animation-name: backgrounds;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+@keyframes backgrounds {
+    10% {
+      background: red;
+    }
+    50% {
+      background: red;
+    }
+    100% {
+      background: blue;
+    }
+  }
+  
+.ball{
+    height: 200px;
+    width: 200px;
+    background: blue;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+    margin-bottom: 280px;
+}
+
+@keyframes bounce {
+    10% {
+        transform: translate(0 , 300px);
+      
+    }
+    30% {
+        transform: translate(0, 270px);
+        transform: scaleY(0.8);
+    }
+    50% {
+        transform: translate(0, 240px);
+        transform: scaleY(1.2);
+    }
+    55%{
+        transform: translate(0,260px);
+    }
+    70% {
+        transform: translate(0,280px);
+    }
+    
+  }
+
+
+.rotate{
+    height: 200px;
+    width: 200px;
+    background: purple;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    50% {
+        transform: rotate(360deg);
+    }
+}
+
+p {
+    font-weight: bolder;
+    animation-name: colorfull;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorfull{
+    30%{
+         color: yellowgreen;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: brown;
+    }
+}
+
+.scale {
+    width: 200px;
+    height: 200px;
+    background: black;
+    animation-name: bigger;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bigger {
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
