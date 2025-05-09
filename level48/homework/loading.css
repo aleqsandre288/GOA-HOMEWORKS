@@ -1,0 +1,60 @@
+body{
+    background-color: #1c1c44;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.yellow{
+    background-color: #fdca52;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: 1s infinite load;
+    animation-delay: 0.4s;
+}
+
+.red{
+    background-color: #fd468d;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: 1s infinite load;
+}
+
+.blue{
+    background-color: #3ee3fa;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: 1s infinite load;
+    animation-delay: 0.2s;
+}
+
+.purple{
+    background-color: #e444f7;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    animation: 1s infinite load;
+    animation-delay: 0.3s;
+}
+    
+@keyframes load{
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1);
+    
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+<!--შექმენით საიტი, სადაც გექნებათ ორი ცალი სხვადასხვა ფოტო, საიტზე ასევე უნდა გქონდეთ შემდეგი ღილაკები:
+1. ღილაკი, რომელზე დაჭერის შემდეგაც საიტზე მომხმარებელს გამოუტანთ გამაფრთხილებელ მესიჯს.-->
+<button onclick="alert('hello')">click!</button>
+<!--2. ღილაკი, რომელზე დაჭერის შემდეგაც შეიცვლება პირველი ფოტოს ზომა.-->
+<img src="georgia.jpg" id="img1" style="width: 300;">
+<button id="imgwidth" onclick="document.getElementById('img1').style.width='200px';">click here</button>
+<!--3. ღილაკი, რომელზე დაჭერის შემდეგაც შეიცვლება მეორე ფოტოს ზომა.-->
+<img src="goa.png" id="img2">
+<button onclick="document.getElementById('img2').style.width='200px';">change width!</button>
+<!--4. ღილაკი, რომელზე დაჭერის შემდეგაც შეიცვლება პირველი ფოტოს მისამართი. -->
+<button onclick="img1.src='goa.png'">change foto</button>
+<!--5. ღილაკი, რომელზე დაჭერის შემდეგაც შეიცვლება მეორე ფოტოს მისამართი. -->
+<button onclick="img2.src='georgia.jpg'">change foto</button>
+bonus: ღილაკი, რომელზე დაჭერის შემდეგაც რომელიმე სხვა ღილაკს შეუცვლით ფონს.
+<button onclick="document.getElementById('imgwidth').style.backgroundColor='red'">change color</button>
+</body>
+</html>
