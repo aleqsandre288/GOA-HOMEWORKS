@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: serif;
+  color: #000;
+}
+
+.top-bar {
+  background: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+}
+
+.nav {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-left li a,
+.nav-right li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: cursive;
+}
+
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1613565974850-b9f28b57a2e1'); /* Replace with your actual image */
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hero-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease;
+}
+
+.hero-links a:hover {
+  opacity: 0.6;
+}
