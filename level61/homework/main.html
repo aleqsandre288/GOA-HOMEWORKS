@@ -11,8 +11,12 @@
     <p id="p">Hello</p>
     <button onclick="colorChange()">Change Color</button>
 
-    <input id="input">Enter Number
-    <button onclick="checkNumber()"></button>
+    <button onclick="document.getElementById('p').style.color = 'red'"></button>
+    <!--4) input-ში შეაყვანინეთ სიტყვა ღილაკზე დაჭერისას შეამოწმეთ if-else-ით, არის თუ არა ეს სიტყვა 'admin' თუ არის, შეცვალეთ გვერდის ფონი მწვანედ, თუ არა - წითლად-->
+    <input type="text" id="input" placeholder="Type 'admin'">
+    <button onclick="checkAdmin()"></button>
+    
+        
     <script src="index.js"></script>
 
 </body>

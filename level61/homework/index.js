@@ -5,19 +5,11 @@ function colorChange(){
 }
 
 
-
-function checkNumber() {
-  const input = document.getElementById('Input').value;
-  const number = parseInt(input, 10);
-
-  if (isNaN(number)) {
-    console.log('გთხოვთ, შეიყვანეთ საკმარისი რიცხვი');
-    return;
-  }
-
-  if (number % 2 === 0) {
-    console.log('ლუწი რიცხვია');
-  } else {
-    console.log('კენტი რიცხვია');
-  }
-}
+function checkAdmin() {
+            const input = document.getElementById('input').value;
+            if (input === 'admin') {
+                document.body.style.backgroundColor = 'green';
+            } else {
+                document.body.style.backgroundColor = 'red';
+            }
+        }
